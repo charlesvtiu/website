@@ -4,13 +4,16 @@
 }
 #startingProfile {
     padding-top: 5%;
-    width: 70%;
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+    max-width: 1000px;
     display: block;
     margin-left:auto;
     margin-right:auto;
 }
 #startingProfileTable {
-    border-top: 2px solid white;
+   border-top: 2px solid white;
 }
 #leftStart {
     width: 50%;
@@ -19,7 +22,20 @@
 #rightStart {
     width: 50%;
     padding-right:0px;
-    border: 0px;
+    
+}
+#startingProfileTable {
+    border-top: 2px solid white;
+}
+#title {
+    position:absolute;
+    color:white;
+    margin-left:5%;
+    font-size: 200%;
+}
+#tdContent {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 #me {
     width:100%;
@@ -38,7 +54,7 @@
 
 /* side nav */
 #sideNav {
-    background: white;
+    /*background: white;*/
     color: white;
     width: 4%;
     height: 119%;
@@ -100,9 +116,12 @@
 }
 
 /* Carousel Display */
+
 #carouselContainer {
-    width: 70%;
+    width: 100%;
+    max-width: 1000px;
     padding:0% 0% 5% 0%;
+    z-index: 4;
 }
 #myCarousel {
     width: 100%;

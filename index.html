@@ -32,15 +32,12 @@
 <!-- STARTING PROFILE START -->
 <div id="beforePictureGallery">
   <div class="container" id="startingProfile">
-    <table class="table">
+    <table class="table" id="startingProfileTable">
       <tbody>
         <tr>
-          <td id="leftStart">
-            <h2>Welcome to my page!</h2>
-            <p>The best camera is the camera in your pocket</p>
-          </td>
-          <td id="rightStart">
-            <img class="pull-right img-responsive" id="me" src="pictures/photography/me.jpg"/>
+          <td id="tdContent">
+            <h2 id="title">MY PHONETOGRAPHY GALLERY</h2>
+            <img class="pull-right img-responsive" id="me" src="pictures/photography/skydiving.jpg"/>
           </td>
         </tr>
       </tbody>
@@ -50,7 +47,7 @@
 
   <!-- CAROUSEL START --> 
     <div class="container" id="carouselContainer">
-    <h2>Here are a lot of photos!</h2>  
+    <h2 class="title">Favorite Photos</h2>  
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
     <!--ol class="carousel-indicators">
@@ -96,7 +93,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#header" onclick="openNav()">Phonetography</a>
+      <a class="navbar-brand" href="#header" onclick="openNav()">Picture Gallery</a>
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
