@@ -36,7 +36,7 @@
       <tbody>
         <tr>
           <td id="tdContent">
-            <h2 id="title">MY PHONETOGRAPHY GALLERY</h2>
+            <h2 id="title">MY <br/> PHONTOGRAPHY <br/> GALLERY</h2>
             <img class="pull-right img-responsive" id="me" src="pictures/photography/skydiving.jpg"/>
           </td>
         </tr>
@@ -88,22 +88,23 @@
 <nav class="navbar navbar-inverse" data-spy="affix" data-target="100" id="header">
   <div class="container-fluid">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" id="navbarButton">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#header" onclick="openNav()">Picture Gallery</a>
+      <a class="navbar-brand" href="#header" onclick="openNav();">Picture Gallery</a>
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li><a href="#header" onclick='showPictures("hongkong");'>Hong Kong</a></li>
-          <li><a href="#header" onclick='showPictures("boston");'>Boston</a></li>
-          <li><a href="#header" onclick='showPictures("london");'>London</a></li>
-          <li><a href="#header" onclick='showPictures("italy");'>Italy</a></li>
-          <li><a href="#header" onclick='showPictures("greece");'>Greece</a></li>
-          <li><a href="#header" onclick='showPictures("japan");'>Japan</a></li>
+          <li><a href="#header" onclick='showPictures("boston");'>Boston, USA</a></li>
+          <li><a href="#header" onclick='showPictures("london");'>London, UK</a></li>
+          <li><a href="#header" onclick='showPictures("florence");'>Florence, Italy</a></li>
+          <li><a href="#header" onclick='showPictures("venice");'>Venice, Italy</a></li>
+          <li><a href="#header" onclick='showPictures("greece");'>Santorini, Greece</a></li>
+          <li><a href="#header" onclick='showPictures("okinawa");'>Okinawa, Japan</a></li>
         </ul>
       </div>
     </div>
@@ -114,9 +115,10 @@
     <div id="hongkongContainer"></div>
     <div id="bostonContainer"></div>
     <div id="londonContainer"></div>
-    <div id="italyContainer"></div>
+    <div id="florenceContainer"></div>
+    <div id="veniceContainer"></div>
     <div id="greeceContainer"></div>
-    <div id="japanContainer"></div>
+    <div id="okinawaContainer"></div>
 </div>
 
 </body>
