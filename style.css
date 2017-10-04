@@ -19,14 +19,15 @@
 #title {
     position:absolute;
     color:white;
-    margin-left:5%;
+    margin-left:8%;
     font-size: 3em;
 }
 #tdContent {
     padding: 0px;
 }
 #me {
-    object-fit: cover
+    object-fit: cover;
+    height:19.5%;
 }
 #header {
    border-radius: 0px;
@@ -110,10 +111,6 @@
     padding:0% 0% 5% 0%;
     z-index: 4;
 }
-#myCarousel {
-    width: 100%;
-}
-
 
 /* Displaying thumbnails */
 .gal-container{
